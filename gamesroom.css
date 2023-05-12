@@ -1,0 +1,43 @@
+body {
+  font-family: Impact;
+  background-color: linen;
+}
+
+.roomname {
+  font-size: 30px;
+  text-align: center;
+}
+
+.room {
+  position: relative;
+  height: 200px;
+  border: 1px solid black;
+  background: url("stripes.png");
+}
+
+.description {
+  padding: 10px;
+}
+
+.hall{
+  position: absolute;
+  bottom: 0;
+  left: 2px;
+  border: 4px ridge yellow;
+  height: 85px;
+  color: black;
+  background: brown;
+  padding: 1px;
+  border-bottom: none;
+}
+.tvroom{
+  position: absolute;
+  right: 9;
+  bottom: 2px;
+  border: 4px ridge yellow;
+  height: 85px;
+  color: black;
+  background: orange;
+  border-bottom: none;
+  padding: 1px
+}
